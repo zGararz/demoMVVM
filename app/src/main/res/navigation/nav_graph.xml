@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.sunasterisk.demomvvm.ui.home.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_favoriteBookFragment"
+            app:destination="@id/favoriteBookFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bookDetailFragment"
+            app:destination="@id/bookDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteBookFragment"
+        android:name="com.sunasterisk.demomvvm.ui.favorite.FavoriteBookFragment"
+        android:label="FavoriteBookFragment">
+        <action
+            android:id="@+id/action_favoriteBookFragment_to_bookDetailFragment"
+            app:destination="@id/bookDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.sunasterisk.demomvvm.ui.detail.BookDetailFragment"
+        android:label="BookDetailFragment">
+        <argument
+            android:name="book"
+            app:argType="com.sunasterisk.demomvvm.data.model.BookPreview" />
+    </fragment>
+</navigation>

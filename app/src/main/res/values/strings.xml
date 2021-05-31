@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">DemoMVVM</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_favorite_books">Favorite Books</string>
+    <string name="title_information_book">Information</string>
+    <string name="title_description_book">Description</string>
+    <string name="title_link_book">Link to by this book</string>
+
+    <string name="text_publisher_book">publisher</string>
+    <string name="text_language_book">language</string>
+    <string name="text_pages_book">papers</string>
+    <string name="text_year_book">year</string>
+    <string name="text_isbn10_book">isbn10</string>
+    <string name="text_isbn13_book">isbn13</string>
 </resources>

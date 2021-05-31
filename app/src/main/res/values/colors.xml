@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="color_gallery">#EEEEEE</color>
+    <color name="color_maroon_flush">#B7225B</color>
+    <color name="color_azure_blue_ribbon">#3A8BFF</color>
+    <color name="color_chathams_blue">#114B70</color>
+    <color name="color_mine_shaft">#2B2B2B</color>
 </resources>
